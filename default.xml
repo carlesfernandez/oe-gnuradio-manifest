@@ -10,6 +10,12 @@
 	<remote name="balister"
 		fetch="git://github.com/balister" />
 
+        <remote name="freescale"
+                fetch="git://github.com/Freescale" />
+ 
+        <remote name="yocto"
+                fetch="git://git.yoctoproject.org/" />
+ 
 	<default remote="openembedded" revision="master"  />
 
 	<project name="bitbake"  path="bitbake" revision="67b752993a2c64cba9ccc4fa662f0bddf081e74a" upstream="refs/heads/master"/>
@@ -20,5 +26,8 @@
 
 	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="b9b4fae93de1508dc5025bf2ad9c5d4b9ab601da" upstream="refs/head/master"/>
 	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="eaab87ec7b9f7cb7029f6f8dca4e05097852072e" upstream="refs/head/master"/>
+        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" />
+        <project name="meta-ti" remote="yocto" path="meta-ti" />
 
 </manifest>

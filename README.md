@@ -72,7 +72,7 @@ Getting Started
 4.  Initialize the OpenEmbedded Environment. This assumes you created the oe-core directory
     in your home directory.
 
-        $ TEMPLATECONF=`pwd`/meta-ettus/common/conf source ./oe-core/oe-init-build-env ./build ./bitbake
+        $ TEMPLATECONF=`pwd`/meta-sdr/conf source ./oe-core/oe-init-build-env ./build ./bitbake
 
     This copies default configuration information into the build/conf*
     directory and sets up some environment variables for OpenEmbedded.  You may
@@ -101,7 +101,7 @@ Getting Started
     Run:
 
         $ export MACHINE="zedboard-zynq7" (only if MACHINE is not already set)
-        $ bibake -c populate_sdk gnuradio-dev-image
+        $ bitbake -c populate_sdk gnuradio-dev-image
 
     When this completes the sdk is in ./build/deploy/imaghes/sdk as an .sh file
     you copy to the machine you want to cross compile on and run the file.
@@ -153,4 +153,15 @@ Make your changes (and contribute them back if they are generally useful :) ),
 and then re-initialize your repo client
 
     $ repo init -u <file:///path/to/your/git/repository.git>
+
+Known Good Machines
+-------------------
+
+These machines have been tested:
+
+ zedboard-zynq7
+ ettus-e1xx (need to use kernel+modules from official image)
+ imx6sabre-lite
+
+Please send success stories to philip@balister.org.
 
