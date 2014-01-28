@@ -18,16 +18,16 @@
  
 	<default remote="openembedded" revision="master"  />
 
-	<project name="bitbake"  path="bitbake" revision="67b752993a2c64cba9ccc4fa662f0bddf081e74a" upstream="refs/heads/master"/>
-	<project name="oe-core"  path="oe-core" revision="ee3e2e5ce15a3bf78c7e9d76d7bf68131f2d3ef7" upstream="refs/head/master"/>
-	<project name="meta-oe"  path="meta-oe" revision="8f69ed50d12fbe00c97e682398581b163858d680" upstream="refs/head/master"/>
+	<project name="bitbake"  path="bitbake" revision="1dbf400c662354b7826b2b97ee2e3e6d11af9fd2" upstream="refs/heads/master"/>
+	<project name="oe-core"  path="oe-core" revision="24d5b449e5f4d91119f0d8e13c457618811aadfc" upstream="refs/head/master"/>
+	<project name="meta-oe"  path="meta-oe" revision="6572316557e742c2dc93848e4d560242bf0c3995" upstream="refs/head/master"/>
 
-	<project name="meta-xilinx" remote="balister" path="meta-xilinx" revision="b971f26a71c8efe5add16bc1f97ee9df4b33a1bc"  upstream="refs/head/working-branch"/>
+	<project name="meta-xilinx" remote="balister" path="meta-xilinx" revision="d9d3a09425626cf05019006afb0527c4e087065d"  upstream="refs/head/working-branch"/>
 
-	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="b9b4fae93de1508dc5025bf2ad9c5d4b9ab601da" upstream="refs/head/master"/>
-	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="eaab87ec7b9f7cb7029f6f8dca4e05097852072e" upstream="refs/head/master"/>
-        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" />
-        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" />
-        <project name="meta-ti" remote="yocto" path="meta-ti" />
+	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="fe95ab1c1c8738bfc5774e336dcf4dbce8c7a18d" upstream="refs/head/master"/>
+	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="4f4766742605de6d2a5c5b7ed46ee6a1c0ba4ac7" upstream="refs/head/master"/>
+        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" revision="2d11b1612d5c5584f97d3245b88ce2ec34822bc6" upstream="ref/heads/master" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="91b4ec6044e37246eeaf0dfb410bc8a542a949c7" upstream="ref/heads/master" />
+        <project name="meta-ti" remote="yocto" path="meta-ti" revision="280c88666ff2c845f27cef2d4da91e92c8b4631f" upstream="ref/heads/master" />
 
 </manifest>
