@@ -24,7 +24,7 @@
 
 	<project name="meta-xilinx" remote="balister" path="meta-xilinx" revision="d9d3a09425626cf05019006afb0527c4e087065d"  upstream="refs/head/working-branch"/>
 
-	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="fe95ab1c1c8738bfc5774e336dcf4dbce8c7a18d" upstream="refs/head/master"/>
+	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="b8b1444880c683eb93c9a0d0633a248b095174e5" upstream="refs/head/master"/>
 	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="4f4766742605de6d2a5c5b7ed46ee6a1c0ba4ac7" upstream="refs/head/master"/>
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" revision="2d11b1612d5c5584f97d3245b88ce2ec34822bc6" upstream="ref/heads/master" />
         <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="91b4ec6044e37246eeaf0dfb410bc8a542a949c7" upstream="ref/heads/master" />
